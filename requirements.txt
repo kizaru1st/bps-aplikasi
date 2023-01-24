@@ -1,0 +1,7 @@
+pandas
+streamlit
+plotly
+openpyxl
+streamlit_option_menu
+subprocess
+sys
