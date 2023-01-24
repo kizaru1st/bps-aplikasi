@@ -1,5 +1,6 @@
-pandas
-streamlit
+streamlit==0.81.0
+numpy==1.20.2
+pandas==1.2.4
 plotly
 openpyxl
 streamlit_option_menu
