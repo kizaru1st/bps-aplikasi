@@ -1,3 +1,4 @@
+import streamlit as st
 hide_st_style = """
             <style>
             #MainMenu {visibility: hidden;}
