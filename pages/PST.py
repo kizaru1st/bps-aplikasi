@@ -1,5 +1,7 @@
 import pandas as pd
 import streamlit as st
+import pandas as pd
+import numpy as np
 import plotly.express as px
 import subprocess
 import sys
@@ -23,7 +25,8 @@ selected = option_menu(
 )
 
 if selected == "Data Buku":
-    
+
+    st.sidebar.header("Aksi ")
     buku = st.sidebar.selectbox(
         "Pilih Aksi: ",
         ["Create Data Buku", "Lihat Data Buku Paling Sering Dibaca", "Lihat Data Buku Paling Sering Diminta"]
